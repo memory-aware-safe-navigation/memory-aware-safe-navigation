@@ -1,0 +1,33 @@
+# Per-environment map settings, shared by Env_Approx (env_approx.py) and occupancy_map_3d.py.
+# To support a new environment, add an entry here and set `env_name` in env_controller.yaml.
+#
+#   x_min, x_max, y_min, y_max : map bounds in the global frame (m)
+#   other_num_samples          : points sampled per obstacle cluster for GPDF training
+
+vicon:
+  x_min: -3.0
+  x_max: 4.0
+  y_min: -3.0
+  y_max: 4.0
+  other_num_samples: 100
+
+small_warehouse:
+  x_min: -10.0
+  x_max: 10.0
+  y_min: -10.0
+  y_max: 10.0
+  other_num_samples: 500
+
+large_hospital_1:
+  x_min: -21.0
+  x_max: 11.0
+  y_min: -13.0
+  y_max: 13.0
+  other_num_samples: 300
+
+aws_hospital:
+  x_min: -15.0
+  x_max: 15.0
+  y_min: -35.0
+  y_max: 22.0
+  other_num_samples: 400

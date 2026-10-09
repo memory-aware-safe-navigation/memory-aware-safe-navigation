@@ -1,0 +1,13 @@
+#controller parameters (geodesic approximation, ranges, etc.) are in autotune_2D.yaml
+
+env_name: "aws_hospital"             #support: "vicon", "small_warehouse", "large_hospital_1", "aws_hospital"
+radius: 0.6
+
+### Robot Path Settings:
+dynamics: "differential"            #support: "omni-directional" or "differential"
+target: [4.0, -2.2]
+init_state: [0.0, 0.0]
+
+### Controller Settings (fixed):
+nominal_speed: 1.0
+MCBF: True                          #or False to use regular CBF

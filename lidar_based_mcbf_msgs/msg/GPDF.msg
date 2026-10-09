@@ -1,0 +1,14 @@
+geometry_msgs/Point[] points
+float64[] weights
+float64[] dis_field
+float64 grid_xmin
+float64 grid_ymin
+float64 grid_dx
+float64 grid_dy
+int32 grid_rows
+int32 grid_cols
+float64 h_robot
+float64 grad_h_shifted_x
+float64 grad_h_shifted_y
+bool has_centroid
+geometry_msgs/Point centroid
